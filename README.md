@@ -222,3 +222,11 @@ npm run build
 - The CT parser focuses on the first certificate embedded in `extra_data`, which is enough for this PoC but could be expanded for full chain processing.
 - The monitor currently checks the latest batch every cycle, so older unmatched entries are not stored.
 - Future improvements could include WebSocket live updates, pagination, authentication, multiple CT log sources, regex matching, severity scoring, and queue-based processing.
+
+## Status
+
+v0.1.1 — PoC in active development.
+
+## Roadmap
+
+See [ROADMAP.md](ROADMAP.md) for this project’s 3-year track (auth, live matches, multi-log, SaaS-ready tenancy).
